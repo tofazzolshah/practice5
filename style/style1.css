@@ -1,0 +1,143 @@
+.body {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+header {
+    display: flex;
+    width: 1600px;
+    height: 808px;
+    background-image: url('../images/banner/banner1.png');
+    margin-bottom: 130px;
+
+
+}
+
+.head-title {
+    color: #151414;
+    text-align: right;
+
+    font-size: 65px;
+    margin-left: 845px;
+    margin-right: 230px;
+    margin-bottom: 2px;
+    font-weight: 525px;
+    height: 228px;
+
+}
+
+.head-para {
+    margin-left: 876px;
+    margin-right: 230px;
+    margin-top: 0px;
+    height: 78px;
+    width: 494px;
+    color: #444343;
+    text-align: right;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px
+}
+
+.hd-btn {
+    color: #FFF;
+    font-size: 20px;
+    padding: 18px 25px;
+    margin-left: 1210px;
+    border: 0;
+    border-radius: 5px;
+    background: #F15B22;
+
+}
+
+/* main section style  */
+
+.section-item {
+    display: flex;
+    margin: 100px;
+}
+
+.main-div2 {
+    width: 340px;
+    margin-left: 150px;
+    margin-top: 300px;
+}
+
+.section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.plan-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+
+}
+
+.main-para {
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main-para2 {
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.pp {
+    display: flex;
+}
+
+.plan-box {
+
+    margin-left: 160px;
+    text-align: center;
+
+
+}
+
+.plan-heading {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+.plan-description {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.call-img {
+    text-align: center;
+    z-index: 1;
+
+}
+
+.contact-title {
+    color: #2013b2;
+    font-size: 40px;
+    width: 559px;
+    height: 90px;
+    z-index: 2;
+}
+.img-write{
+margin-top: 20px;
+}

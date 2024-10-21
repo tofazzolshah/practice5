@@ -102,8 +102,8 @@ header {
 .plan-box {
 
     margin-left: 160px;
-    text-align: center;
 
+    text-align: center;
 
 }
 
@@ -127,17 +127,108 @@ header {
 
 .call-img {
     text-align: center;
-    z-index: 1;
+    margin-left: 230px;
+    margin-top: 80px;
+    display: inline-block;
+    position: relative;
 
 }
 
 .contact-title {
-    color: #2013b2;
+    position: absolute;
+    top: 5%;
+    left: 24%;
+    margin-right: 319px;
+    transform: translate(-50%, -50%);
+    /* Center the text */
+
+    color: white;
     font-size: 40px;
-    width: 559px;
-    height: 90px;
-    z-index: 2;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+
 }
-.img-write{
-margin-top: 20px;
+
+.btn-call {
+    position: absolute;
+    top: 51%;
+    left: 12%;
+
+    transform: translate(-50%, -50%);
+    /* Center the text */
+    background-color: white;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+
+}
+
+/* footer related style  */
+.footer {
+
+    width: 1600px;
+    height: 577px;
+    background-color: #151414;
+    margin-top: 90px;
+
+}
+
+.footer-content {
+    display: flex;
+
+}
+
+.footercoloumn1 {
+    margin-left: 230px;
+    width: 485px;
+    margin-top: 130px;
+}
+
+.footercoloumn {
+    color: white;
+    margin-top: 130px;
+    margin-left: 331px;
+}
+
+.footer-title {
+    color: white;
+}
+
+.footer-para {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.nd-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.email-box {
+    width: 325px;
+    height: 64px;
+    background-color: #151414;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.btnSub{
+    width: 170.106px;
+    height: 64px;
+    background-color: white;
+    color: #F15B22;
+    border-radius: 8px;
+}
+.footer-img{
+    margin-right: 15px;
 }
